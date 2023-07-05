@@ -27,7 +27,7 @@ Partial Class Form1
         CopyBtn = New Button()
         Copyright = New Label()
         ResultTextBox = New TextBox()
-        ResultLabel = New Label()
+        BeshifiedLabel = New Label()
         MainTextBox = New TextBox()
         TextLabel = New Label()
         Panel1.SuspendLayout()
@@ -46,7 +46,7 @@ Partial Class Form1
         Panel1.Controls.Add(CopyBtn)
         Panel1.Controls.Add(Copyright)
         Panel1.Controls.Add(ResultTextBox)
-        Panel1.Controls.Add(ResultLabel)
+        Panel1.Controls.Add(BeshifiedLabel)
         Panel1.Controls.Add(MainTextBox)
         Panel1.Controls.Add(TextLabel)
         Panel1.Location = New Point(23, 131)
@@ -96,16 +96,16 @@ Partial Class Form1
         ResultTextBox.Size = New Size(280, 200)
         ResultTextBox.TabIndex = 3
         ' 
-        ' ResultLabel
+        ' BeshifiedLabel
         ' 
-        ResultLabel.AutoSize = True
-        ResultLabel.Font = New Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        ResultLabel.ForeColor = Color.White
-        ResultLabel.Location = New Point(310, 0)
-        ResultLabel.Name = "ResultLabel"
-        ResultLabel.Size = New Size(70, 24)
-        ResultLabel.TabIndex = 2
-        ResultLabel.Text = "Result"
+        BeshifiedLabel.AutoSize = True
+        BeshifiedLabel.Font = New Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
+        BeshifiedLabel.ForeColor = Color.White
+        BeshifiedLabel.Location = New Point(310, 0)
+        BeshifiedLabel.Name = "BeshifiedLabel"
+        BeshifiedLabel.Size = New Size(98, 24)
+        BeshifiedLabel.TabIndex = 2
+        BeshifiedLabel.Text = "Beshified"
         ' 
         ' MainTextBox
         ' 
@@ -155,7 +155,7 @@ Partial Class Form1
     Friend WithEvents TextLabel As Label
     Friend WithEvents MainTextBox As TextBox
     Friend WithEvents ResultTextBox As TextBox
-    Friend WithEvents ResultLabel As Label
+    Friend WithEvents BeshifiedLabel As Label
     Friend WithEvents Copyright As Label
     Friend WithEvents CopyBtn As Button
 End Class
